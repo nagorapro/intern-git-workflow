@@ -159,7 +159,7 @@ main (read-only)
     - `<Глагол действие в прошедшем времени> <существительное>`
     - `<VerbPast> <entityType>`
     - `VerbPast` — глагол-действие в прошедшем времени
-    - `EntityType` — тип сущности (module, config, test и т.д.)
+    - `entityType` — тип сущности (module, config, test и т.д.)
 
 - **Допустимые глаголы (VerbPast):**
     - *Added* — добавлен
