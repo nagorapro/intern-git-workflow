@@ -157,7 +157,7 @@ main (read-only)
 
 - **Формат подписи рабочих коммитов:**
     - `<Глагол действие в прошедшем времени> <существительное>`
-    - `<VerbPast> <EntityType>`
+    - `<VerbPast> <entityType>`
     - `VerbPast` — глагол-действие в прошедшем времени
     - `EntityType` — тип сущности (module, config, test и т.д.)
 
@@ -171,15 +171,15 @@ main (read-only)
     - *Moved* — перемещён
     - *Deleted* — удалён
 
-- **Типы сущностей (EntityType):**
-    - *Логика:* `module` (.js)
-    - *Контракты:* `type` (.ts)
-    - *Параметры:* `config` (.js, .json, .yaml)
-    - *Шаблоны:* `template` (.html, .xml, .sql)
-    - *Стили:* `style` (.css, .scss, .sass)
-    - *Тесты:* `test` (.test.js)
-    - *Дока:* `doc` (.md, .txt)
-    - *Статика:* `asset` (.svg, .jpg, .png, .woff)
+- **Типы сущностей (entityType):**
+    - *module* — файл с логикой (.js)
+    - *type* — файл с типами (.ts)
+    - *config* — файл с конфигурацией (.js, .json, .yaml)
+    - *template* — файл с шаблоном (.html, .xml, .sql)
+    - *style* — файл со стилизацией (.css, .scss, .sass)
+    - *test* — файл с тестами (.test.js)
+    - *doc* — файл с документацией (.md, .txt)
+    - *asset* — файл со статикой (.svg, .jpg, .png, .woff)
 
 - **Примеры подписей рабочих коммитов:**
     - *Added module* (строго 1 добавленный модуль)
