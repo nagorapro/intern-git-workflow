@@ -73,7 +73,7 @@ main (read-only)
 >Персональные рабочие ветки, создаваемые от персональной основной ветки интерна и предназначенные для выполнения интерном отдельных задач.
 
 - **Формула именования веток:**
-  - `intern-<username>-<hash6>/<task-number>-<task-type>-<task-name>`
+  - `intern-<username>-<hash6>/<task-number>-<task-type>-<task-object>`
   - `intern-ivanov-xstqsb/12-feature-admin-service`
   - `intern-petrov-dvlewe/13-bugfix-user-service`
 
@@ -89,30 +89,30 @@ main (read-only)
 ├── intern-ivanov-xstqsb
 │   ├── 12-feature-admin-service
 │   ├── 13-refactor-admin-service
-│   ├── 14-improvement-admin-service
+│   ├── 14-improve-admin-service
 │   └── 15-bugfix-admin-service
 └── intern-petrov-dvlewe
     ├── 22-feature-user-service
     ├── 23-refactor-user-service
-    ├── 24-improvement-user-service
+    ├── 24-improve-user-service
     └── 25-bugfix-user-service
 ```
 
 ---
 ### Типы задач (task-type):
 
->`<task-type>` — это существительное, которое определяет тип задачи и отвечает на вопрос: «К какой категории относится данная задача?».
+>`<task-type>` — это тип задачи, отвечает на вопрос: «К какой категории относится данная задача?».
 
 - **Типы:**
   - `feature` — новая функциональность
   - `refactor` — переработка без изменения логики
-  - `improvement` — улучшение с изменением логики
+  - `improve` — улучшение с изменением логики
   - `bugfix` — исправление ошибки
 
 ---
-### Названия задач (task-name):
+### Объекты задач (task-object):
 
->`<task-name>` — это существительное, которое представляет объект, является кратким  описанием сути задачи и отвечает на вопрос: «Что именно создаётся или изменяется?».
+>`<task-object>` — это существительное, которое представляет объект, отвечает на вопрос: «Что именно создаётся или изменяется?».
 
 - **Правила:**
   - Без повторения `task-type`
@@ -125,7 +125,7 @@ main (read-only)
   - Без служебных слов (`the`, `a`, `fix`, `update` и т.д.)
 
 - **Примеры:**
-  - `<object-name>`
+  - `<task-object>`
   - user-controller (services/user/controller.js)
   - user-service (services/user/service.js)
   - user-model (services/user/model.js)
